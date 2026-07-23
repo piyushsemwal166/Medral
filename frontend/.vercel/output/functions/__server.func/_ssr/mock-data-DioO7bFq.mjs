@@ -1,0 +1,505 @@
+//#region node_modules/.nitro/vite/services/ssr/assets/mock-data-DioO7bFq.js
+var revenueData = [
+	{
+		month: "Jan",
+		revenue: 42e3,
+		orders: 320
+	},
+	{
+		month: "Feb",
+		revenue: 51e3,
+		orders: 410
+	},
+	{
+		month: "Mar",
+		revenue: 48e3,
+		orders: 380
+	},
+	{
+		month: "Apr",
+		revenue: 61e3,
+		orders: 490
+	},
+	{
+		month: "May",
+		revenue: 72e3,
+		orders: 580
+	},
+	{
+		month: "Jun",
+		revenue: 68e3,
+		orders: 540
+	},
+	{
+		month: "Jul",
+		revenue: 84e3,
+		orders: 670
+	},
+	{
+		month: "Aug",
+		revenue: 91e3,
+		orders: 720
+	},
+	{
+		month: "Sep",
+		revenue: 88e3,
+		orders: 690
+	},
+	{
+		month: "Oct",
+		revenue: 102e3,
+		orders: 810
+	},
+	{
+		month: "Nov",
+		revenue: 118e3,
+		orders: 940
+	},
+	{
+		month: "Dec",
+		revenue: 134e3,
+		orders: 1080
+	}
+];
+var weeklyOrders = [
+	{
+		day: "Mon",
+		orders: 145
+	},
+	{
+		day: "Tue",
+		orders: 178
+	},
+	{
+		day: "Wed",
+		orders: 162
+	},
+	{
+		day: "Thu",
+		orders: 201
+	},
+	{
+		day: "Fri",
+		orders: 234
+	},
+	{
+		day: "Sat",
+		orders: 189
+	},
+	{
+		day: "Sun",
+		orders: 156
+	}
+];
+var salesByCategory = [
+	{
+		name: "Vitamins",
+		value: 42,
+		color: "var(--chart-1)"
+	},
+	{
+		name: "Proteins",
+		value: 28,
+		color: "var(--chart-2)"
+	},
+	{
+		name: "Herbals",
+		value: 15,
+		color: "var(--chart-3)"
+	},
+	{
+		name: "Wellness",
+		value: 10,
+		color: "var(--chart-4)"
+	},
+	{
+		name: "Others",
+		value: 5,
+		color: "var(--chart-5)"
+	}
+];
+var orders = [
+	{
+		id: "MED-10284",
+		customer: "Aarav Sharma",
+		email: "aarav@example.com",
+		amount: 249.5,
+		status: "paid",
+		date: "2026-07-22",
+		items: 3
+	},
+	{
+		id: "MED-10283",
+		customer: "Priya Patel",
+		email: "priya@example.com",
+		amount: 89,
+		status: "shipped",
+		date: "2026-07-22",
+		items: 1
+	},
+	{
+		id: "MED-10282",
+		customer: "Rohan Mehta",
+		email: "rohan@example.com",
+		amount: 412.75,
+		status: "delivered",
+		date: "2026-07-21",
+		items: 5
+	},
+	{
+		id: "MED-10281",
+		customer: "Sneha Kapoor",
+		email: "sneha@example.com",
+		amount: 129,
+		status: "pending",
+		date: "2026-07-21",
+		items: 2
+	},
+	{
+		id: "MED-10280",
+		customer: "Vikram Singh",
+		email: "vikram@example.com",
+		amount: 78.25,
+		status: "cancelled",
+		date: "2026-07-20",
+		items: 1
+	},
+	{
+		id: "MED-10279",
+		customer: "Ananya Iyer",
+		email: "ananya@example.com",
+		amount: 356.9,
+		status: "paid",
+		date: "2026-07-20",
+		items: 4
+	},
+	{
+		id: "MED-10278",
+		customer: "Karan Malhotra",
+		email: "karan@example.com",
+		amount: 199,
+		status: "delivered",
+		date: "2026-07-19",
+		items: 2
+	},
+	{
+		id: "MED-10277",
+		customer: "Neha Verma",
+		email: "neha@example.com",
+		amount: 512.4,
+		status: "shipped",
+		date: "2026-07-19",
+		items: 6
+	}
+];
+var products = [
+	{
+		id: "P-001",
+		name: "Omega-3 Fish Oil 1000mg",
+		sku: "MED-OMG-001",
+		category: "Vitamins",
+		price: 34.99,
+		salePrice: 29.99,
+		stock: 420,
+		status: "active",
+		image: "🐟"
+	},
+	{
+		id: "P-002",
+		name: "Whey Protein Isolate 2kg",
+		sku: "MED-WHY-002",
+		category: "Proteins",
+		price: 79,
+		salePrice: 69,
+		stock: 8,
+		status: "active",
+		image: "💪"
+	},
+	{
+		id: "P-003",
+		name: "Ashwagandha Root Extract",
+		sku: "MED-ASH-003",
+		category: "Herbals",
+		price: 24.5,
+		salePrice: 22,
+		stock: 156,
+		status: "active",
+		image: "🌿"
+	},
+	{
+		id: "P-004",
+		name: "Vitamin D3 + K2 Drops",
+		sku: "MED-VD3-004",
+		category: "Vitamins",
+		price: 19.99,
+		salePrice: 17.99,
+		stock: 3,
+		status: "active",
+		image: "☀️"
+	},
+	{
+		id: "P-005",
+		name: "Collagen Peptides Powder",
+		sku: "MED-COL-005",
+		category: "Wellness",
+		price: 45,
+		salePrice: 39,
+		stock: 289,
+		status: "active",
+		image: "✨"
+	},
+	{
+		id: "P-006",
+		name: "Magnesium Glycinate 400mg",
+		sku: "MED-MAG-006",
+		category: "Vitamins",
+		price: 22,
+		salePrice: 19.5,
+		stock: 12,
+		status: "active",
+		image: "💊"
+	},
+	{
+		id: "P-007",
+		name: "Turmeric Curcumin Complex",
+		sku: "MED-TUR-007",
+		category: "Herbals",
+		price: 27,
+		salePrice: 24,
+		stock: 0,
+		status: "draft",
+		image: "🟡"
+	},
+	{
+		id: "P-008",
+		name: "Probiotic 50 Billion CFU",
+		sku: "MED-PRB-008",
+		category: "Wellness",
+		price: 42,
+		salePrice: 36,
+		stock: 178,
+		status: "active",
+		image: "🦠"
+	}
+];
+var customers = [
+	{
+		id: "C-001",
+		name: "Aarav Sharma",
+		email: "aarav@example.com",
+		orders: 12,
+		ltv: 2340.5,
+		status: "active",
+		joined: "2024-03-14"
+	},
+	{
+		id: "C-002",
+		name: "Priya Patel",
+		email: "priya@example.com",
+		orders: 8,
+		ltv: 1245,
+		status: "active",
+		joined: "2024-06-02"
+	},
+	{
+		id: "C-003",
+		name: "Rohan Mehta",
+		email: "rohan@example.com",
+		orders: 24,
+		ltv: 5890.75,
+		status: "vip",
+		joined: "2023-11-20"
+	},
+	{
+		id: "C-004",
+		name: "Sneha Kapoor",
+		email: "sneha@example.com",
+		orders: 3,
+		ltv: 289,
+		status: "active",
+		joined: "2025-02-18"
+	},
+	{
+		id: "C-005",
+		name: "Vikram Singh",
+		email: "vikram@example.com",
+		orders: 1,
+		ltv: 78.25,
+		status: "inactive",
+		joined: "2025-04-01"
+	},
+	{
+		id: "C-006",
+		name: "Ananya Iyer",
+		email: "ananya@example.com",
+		orders: 15,
+		ltv: 3120.4,
+		status: "vip",
+		joined: "2024-01-08"
+	}
+];
+var b2bInquiries = [
+	{
+		id: "B2B-201",
+		company: "Wellness Retail Co.",
+		contact: "Manish Gupta",
+		productType: "Bulk Whey Protein",
+		quantity: "5000 units",
+		status: "negotiation",
+		date: "2026-07-18"
+	},
+	{
+		id: "B2B-202",
+		company: "PharmaMart Chain",
+		contact: "Sarah Johnson",
+		productType: "Vitamin D3 (Private Label)",
+		quantity: "20000 units",
+		status: "new",
+		date: "2026-07-21"
+	},
+	{
+		id: "B2B-203",
+		company: "GymFuel Distributors",
+		contact: "Arjun Nair",
+		productType: "Pre-workout Blend",
+		quantity: "8000 units",
+		status: "quoted",
+		date: "2026-07-15"
+	},
+	{
+		id: "B2B-204",
+		company: "HealthPlus Stores",
+		contact: "Emma Wilson",
+		productType: "Omega-3 Softgels",
+		quantity: "12000 units",
+		status: "won",
+		date: "2026-07-10"
+	},
+	{
+		id: "B2B-205",
+		company: "NatureFirst Co.",
+		contact: "Rahul Desai",
+		productType: "Ashwagandha Extract",
+		quantity: "3000 units",
+		status: "lost",
+		date: "2026-07-05"
+	}
+];
+var coupons = [
+	{
+		code: "SUMMER25",
+		type: "percentage",
+		value: 25,
+		used: 342,
+		limit: 1e3,
+		expiry: "2026-08-31",
+		status: "active"
+	},
+	{
+		code: "WELCOME10",
+		type: "percentage",
+		value: 10,
+		used: 1284,
+		limit: null,
+		expiry: null,
+		status: "active"
+	},
+	{
+		code: "FLAT50",
+		type: "fixed",
+		value: 50,
+		used: 89,
+		limit: 500,
+		expiry: "2026-07-30",
+		status: "active"
+	},
+	{
+		code: "BULK100",
+		type: "fixed",
+		value: 100,
+		used: 12,
+		limit: 100,
+		expiry: "2026-09-15",
+		status: "active"
+	},
+	{
+		code: "SPRING20",
+		type: "percentage",
+		value: 20,
+		used: 890,
+		limit: 890,
+		expiry: "2026-05-31",
+		status: "expired"
+	}
+];
+var adminUsers = [
+	{
+		id: "U-01",
+		name: "Elena Rodriguez",
+		email: "elena@medral.co",
+		role: "Super Admin",
+		lastActive: "Just now",
+		avatar: "ER"
+	},
+	{
+		id: "U-02",
+		name: "Marcus Chen",
+		email: "marcus@medral.co",
+		role: "Admin",
+		lastActive: "12 min ago",
+		avatar: "MC"
+	},
+	{
+		id: "U-03",
+		name: "Priya Nair",
+		email: "priya.n@medral.co",
+		role: "Manager",
+		lastActive: "1 hr ago",
+		avatar: "PN"
+	},
+	{
+		id: "U-04",
+		name: "David Okafor",
+		email: "david@medral.co",
+		role: "Support",
+		lastActive: "3 hr ago",
+		avatar: "DO"
+	},
+	{
+		id: "U-05",
+		name: "Yuki Tanaka",
+		email: "yuki@medral.co",
+		role: "Editor",
+		lastActive: "Yesterday",
+		avatar: "YT"
+	}
+];
+var bestSellers = [
+	{
+		name: "Whey Protein Isolate 2kg",
+		sold: 1240,
+		revenue: 85560
+	},
+	{
+		name: "Omega-3 Fish Oil 1000mg",
+		sold: 980,
+		revenue: 29390
+	},
+	{
+		name: "Collagen Peptides Powder",
+		sold: 720,
+		revenue: 28080
+	},
+	{
+		name: "Probiotic 50 Billion CFU",
+		sold: 645,
+		revenue: 23220
+	},
+	{
+		name: "Ashwagandha Root Extract",
+		sold: 510,
+		revenue: 11220
+	}
+];
+//#endregion
+export { customers as a, revenueData as c, coupons as i, salesByCategory as l, b2bInquiries as n, orders as o, bestSellers as r, products as s, adminUsers as t, weeklyOrders as u };
